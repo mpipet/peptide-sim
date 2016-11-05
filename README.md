@@ -20,30 +20,29 @@ using pdb file (from www.rcsb.org for example)
 
 Obtain the sequence from pdb file
 
-.. code-block:: bash
+```bash
 
   $ pdbToChain 1qbf.pdb
-
+```
 
 Generate the simulated peptide pdb file 
 
-.. code-block:: bash
-
+```bash
   $ pdbToChain ../pdbs/1qbf.pdb|peptideSim > simulated_1qbf.pdb
-
+```
 
 Use your favorite pdb viewer (rasmol for example)
 
-.. code-block:: bash
+```bash
 
   $ rasmol simulated_1qbf.pdb 
+```
 
 Installation
 ------------
 
-.. code-block:: bash
-
+```bash
   $ python setup.py install
-
+```
 
 
